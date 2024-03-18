@@ -13,12 +13,12 @@ void print_cont_frac_rt(const std::vector<i64>& v){
 }
 void example1(){
     auto v = cont_frac_rt(793);
-    print_cont_frac_rt(v);
+    print_cont_frac_rt(v); // [28;(6, 4, 6, 56)]
     std::cout << std::endl;
 }
 void example2(){
     auto v = cont_frac_rt(25);
-    print_cont_frac_rt(v);
+    print_cont_frac_rt(v); // [5]
     std::cout << std::endl;
 }
 int main(){
