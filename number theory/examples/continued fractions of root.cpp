@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cassert>
-#include "../continued fractions of roots.hpp"
+#include "../continued fractions of root.hpp"
 
 void print_cont_frac_rt(const std::vector<i64>& v){
     assert(v.size());
