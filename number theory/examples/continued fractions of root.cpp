@@ -2,7 +2,8 @@
 #include <cassert>
 #include "../continued fractions of root.hpp"
 
-void print_cont_frac_rt(const std::vector<i64>& v){
+template<class T>
+void print_cont_frac_rt(const std::vector<T>& v){
     assert(v.size());
     std::cout << '[' << v[0];
     if(v.size() > 1) std::cout << ";(";
