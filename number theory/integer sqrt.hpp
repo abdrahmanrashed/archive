@@ -9,8 +9,8 @@
 */
 template<class T>
 T sqrti(T x){
-    T q = std::max<T>(0, T(sqrtl(x)) - 2);
-    if(std::is_floating_point<T>()) q = floorl(q);
-    while((q + 1) * (q + 1) <= x) ++q;
-    return q;
+    T rt = std::max<T>(0, T(sqrtl(x)) - 2);
+    if(std::is_floating_point<T>()) rt = floorl(rt);
+    while((rt + 1) * (rt + 1) <= x) ++rt;
+    return rt;
 }
