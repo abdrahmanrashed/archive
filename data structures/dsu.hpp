@@ -78,7 +78,7 @@ public:
         @brief Merges 2 sets in constant time.
         @param x An element in the first set.
         @param y An element in the second set.
-        @return True the sets were merged. False if the elements were
+        @return True if the sets were merged. False if the elements were
         in the same set to begin with.
     */
     bool merge(T x, T y) {
