@@ -3,14 +3,13 @@
 
 /*
    @brief Generates all primes up to n.
-
    @tparam T Type of elements.
    @param n Sieve limit.
    @return A pair of vectors. The first constains all primes up to n.
-   @return The second contains the smallest factor of all integers up to n.
+   The second contains the smallest factor of all integers up to n.
 */
 template<class T = unsigned>
-std::pair<std::vector<T>, std::vector<T>> sieve(size_t n){
+std::pair<std::vector<T>, std::vector<T>> sieve(const size_t& n){
     static_assert(std::is_integral<T>(), "value type must be integer");
     std::vector<T> primes, least_factor(n + 1);
     std::iota(least_factor.begin(), least_factor.end(), 0);

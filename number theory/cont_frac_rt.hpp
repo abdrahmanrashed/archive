@@ -1,15 +1,15 @@
-#include "integer sqrt.hpp"
 #include <vector>
+#include "sqrti.hpp"
 
 /*
-   @brief Returns continued fraction representing the root of an integer.
-
-   @param x An integer.
-   @return An array Given in the form [a0, (a1, a2, ... , an)] representing the continued fraction.
-   @return Where (a1, a2, ... , an) repeats infinitely
+    @brief Returns continued fraction representing the root of an integer.
+    @tparam T type of elements.
+    @param x An integer.
+    @return An array Given in the form [a0, (a1, a2, ... , an)] representing the continued fraction.
+    @return Where (a1, a2, ... , an) repeats infinitely.
 */
 template<class T>
-std::vector<T> cont_frac_rt(T x) {
+std::vector<T> cont_frac_rt(const T& x) {
     // maintain fraction in the form (sqrt(x) + c) / b
     // by multiplying with conjugate after reciprocation
 

@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cassert>
-#include "../continued fractions of root.hpp"
+#include "../cont_frac_rt.hpp"
 
 template<class T>
 void print_cont_frac_rt(const std::vector<T>& v){

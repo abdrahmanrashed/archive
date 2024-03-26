@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cassert>
-#include "../integer sqrt.hpp"
+#include "../sqrti.hpp"
 
 void example1(){
     auto x = sqrti(25); // 5

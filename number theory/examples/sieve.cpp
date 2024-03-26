@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../sieve of erastothenes.hpp"
+#include "../sieve.hpp"
 
 template<class T>
 void print_vector(const std::vector<T>& v){
