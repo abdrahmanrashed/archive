@@ -1,7 +1,7 @@
 #include <numeric>
 #include <vector>
 
-/*
+/**
    @brief Generates all primes up to n.
    @tparam T Type of elements.
    @param n Sieve limit.

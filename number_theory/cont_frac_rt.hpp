@@ -1,7 +1,7 @@
 #include <vector>
 #include "sqrti.hpp"
 
-/*
+/**
     @brief Returns continued fraction representing the root of an integer.
     @tparam T type of elements.
     @param x An integer.

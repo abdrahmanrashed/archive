@@ -1,7 +1,7 @@
 #include <cmath>
 #include <algorithm>
 
-/*
+/**
    @brief Calculates the floor of the square root of a number.
    @param x A non-negative numerical value. Must be implicitly convertible to primitive type for sqrt calculation.
    @return floor(sqrt(x))
